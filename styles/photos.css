@@ -1,0 +1,20 @@
+#navtop{
+	width: 100%;
+
+}
+
+
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: #414F57;
+	font-size: 20px;
+}
+h1{
+	font-family: 'Open Sans',sans-serif;
+	color: white;
+	font-size: 80px;
+	display: inline-block;
+}
+#logo{
+	border-radius: 50%;
+}

@@ -1,0 +1,109 @@
+#pgn{
+
+}
+#navtop{
+	width: 100%;
+
+}
+h1{
+	font-family: 'Open Sans',sans-serif;
+	color: white;
+	font-size: 80px;
+	display: inline-block;
+}
+#logo{
+	border-radius: 50%;
+}
+
+#paginationnext{
+	background-color:orange;
+	width: 10%;
+	border: 20px;
+	display: inline-block;
+	border-color: black;
+	font-size: 20px;
+}
+#paginationprev{
+	background-color: #FFC109;
+	width: 10%;
+	border: 20px;
+	display: inline-block;
+	border-color: black;
+	font-size: 20px;
+}
+#mainbox{
+width: 95%;
+color: white;
+font-size: 20px;
+}
+
+#posts{
+width: 90%;
+height: 10%;
+}
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: #414F57;
+	font-size: 20px;
+
+}
+
+h2{
+font-family: 'Open Sans',sans-serif;
+font-size: 40px;
+text-align: center;
+color: #FFFFFF;
+background-color: black;
+
+}
+
+a {
+text-decoration: none;
+font-style: normal;
+color: white;
+font-weight:200;
+
+}
+
+a:visited{
+
+color:white;
+
+}
+
+a:hover{
+	color: orange;
+
+}
+
+#date_of_post{
+display: inline-block;
+width: 20%;
+height: 100%;
+float: left;
+}
+
+#article_name{
+display: inline-block;
+width:40%;
+height: 100%;
+word-wrap:break-word;
+overflow: hidden;
+
+}
+
+#author_name{
+display: inline-block;
+width: 25%;
+height: 100%;
+word-wrap: break-word;
+float: right;
+text-overflow: ellipsis;
+}
+
+#article_upvotes{
+display: inline-block;
+width:5%;
+height: 100%;
+float: right;
+}

@@ -1,0 +1,169 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=JosefinSlab">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+<title>Create</title>
+<script type="text/javascript" src="./../js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="./../js/tinymce/jquery.tinymce.min"></script>
+<script type="text/javascript">
+tinymce.init({
+	selector:'#article_content',
+	plugins:"code image print preview fullscreen emoticons codesample ",
+	toolbar:"insertfile code  print preview fullscreen emoticons codesample ",
+	imagetools_toolbar:"rotateleft rotateright | flipv fliph | editimage imageoptions"
+	
+});
+</script>
+</head>
+
+<style>
+#navtop{
+	width: 100%;
+
+}
+
+
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: #414F57;
+	font-size: 20px;
+}
+h1{
+	font-family: 'Open Sans',sans-serif;
+	color: white;
+	font-size: 80px;
+	display: inline-block;
+}
+#logo{
+	border-radius: 50%;
+}
+.mainbox{
+	width:80%;
+	font-size: 18px;
+	color: white;
+
+}
+#submit{
+	width: 20%;
+	height: 5%;
+	border:none;
+	background-color: black;
+	color:white;
+	font-size: 20px;
+}
+#submit:hover{
+background-color: green;
+}
+#block1{
+	float: right;
+	width:80%;
+
+}
+#block2{
+	width:80%;
+	float: right;
+}
+#block3{
+	float:right;
+	width:80%;
+}
+#block31{
+	width: 100%;
+}
+#block32{
+	width:100%;
+
+}
+
+#block4{
+	width: 80%;
+	float: right;
+}
+#article_name{
+	width:80%;
+	height: 8%;
+	float: right;
+	font-size: 22px;
+	border-radius: 20px;
+
+
+}
+#article_content{
+	width:100%;
+	height: 60%;
+	font-size:20px;
+
+}
+#article_tags{
+	width:70%;
+	height: 20%;
+	float:right;
+	border-radius: 20px;
+	border-color: black;
+}
+#author_name{
+	width:70%;
+	float:right;
+	border-color: black;
+}
+
+
+</style>
+<body>
+	<div id="navtop">
+
+			<a href="../index.php">
+			<img id="logo" src="../res/logo.png" width="100px" height="100px"></img>
+			</a>
+			<h1>    | Create | </h1>
+	</div>
+
+
+<div class="mainbox" align="center">
+
+
+<form action="../php/createpost.php" method="GET" >
+
+					<div id="block1">
+						Article name:
+								<input type=text id='article_name' name="article_name" type="text"></input>
+				</div>
+
+					<div id="block2">
+
+								<br/><br/>
+								<textarea id='article_content' name="article_content" type="text"></textarea>
+
+					</div>
+
+					<div id="block3">
+
+
+									  <div id="block31">	<br>Your name:
+										<input type="text" id='author_name' name='author_name' type="text"/>
+									  </div>
+
+
+										<div id="block32">
+										<br>Tags:
+										<textarea id='article_tags' name="article_tags" type="text"></textarea>
+									  </div>
+
+
+
+					</div>
+
+
+					<div id="block4">
+								<br>
+								<input type="submit" id='submit' align="center" width="15%" color="red" value="submit"></button>
+					</div>
+
+</form>
+</div>
+
+</body>
+</html>

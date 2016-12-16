@@ -1,0 +1,86 @@
+
+#navtop{
+	width: 100%;
+}
+
+h1{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 300%;
+	text-align: left;
+	color: white;
+	background-color: #FFBF00;
+	width:40%;
+	height: 100%;
+}
+body{
+		font-family: 'Open Sans',sans-serif;
+		background-color:#414F57;
+		font-size: 18px;
+		width: 100%;
+
+}
+#content{
+	width: 100%;
+	background: red;
+}
+
+a {
+	text-decoration: none;
+	font-style: normal;
+	color: white;
+	font-weight:200;
+
+	}
+
+a:visited{
+
+	color:white;
+	font-weight: bold;
+
+}
+
+a:hover{
+color: #4DFF4D;
+}
+
+.mainbox{
+	width:80%;
+	align:center;
+	float: right;
+	font-size: 18px;
+
+}
+
+.category{
+	width:26%;
+	color: white;
+	max-width: 500px;
+	max-height:500px;
+	padding:25px;
+	float: left;
+	font-size: 18px;
+}
+
+.sidebar{
+	float:left;
+	width: 20%;
+	color: white;
+}
+.sidebarcat{
+	width: 100%;
+	font-size: 20px;
+	padding: 15px;
+}
+#footer{
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	float: left;
+	font: white;
+
+}
+.footersub{
+	background-color: white;
+	width:33%;
+	float: left;
+}
